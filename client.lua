@@ -1,6 +1,6 @@
 --============================================================
--- Please do not touch or edit any of this code, unless your =
--- smarter than me and know what your doing. Thanks <3 =======
+-- Please do not touch or edit any of this code, unless you're
+-- smarter than me and know what you're doing. Thanks <3
 --============================================================
 
 local delay     = config.delay * 600000

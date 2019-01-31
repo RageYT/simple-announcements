@@ -12,12 +12,12 @@ Simple Announcer is one of my first scripts, and many more to come. It's a basic
 Have more ideas? Please do by all means share.
 
 ## Easy Installation Guide
-Installing is as simple as downloading and throwing into you're resource folder, but some may not find it easy.
+Installing is as simple as downloading and throwing into your resource folder, but some may not find it easy.
 
 1. Download the latest release via [GitHub](https://github.com/RageYT/simple-announcements/releases/latest)
-2. Locate you're resources folder within you're server-data folder
-3. Drag and Drop into you're resources folder
-4. Locate the **config.lua** file within the resource folder and edit to you're needs
-5. Add the following lines into you're **server.cfg** file, don't forget to remove the **-master** at the end
+2. Locate your resources folder within you're server-data folder
+3. Drag and Drop into your resources folder
+4. Locate the **config.lua** file within the resource folder and edit to your needs
+5. Add the following lines into your **server.cfg** file, don't forget to remove the **-master** at the end
 
 > start simple-announcements
