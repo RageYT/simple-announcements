@@ -21,4 +21,9 @@ Installing is as simple as downloading and throwing into your resource folder, b
 4. Locate the **config.lua** file within the resource folder and edit to your needs
 5. Add the following lines into your **server.cfg** file, don't forget to remove the **-master** at the end
 6. Add ace `command.announce` to any group you want to allow `/announce <message>`
+
+### Ace Permission
+> add_ace group.admin command.announce allow
+
+### Start Command
 > start simple-announcements
