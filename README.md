@@ -21,3 +21,5 @@ Installing is as simple as downloading and throwing into your resource folder, b
 5. Add the following lines into your **server.cfg** file, don't forget to remove the **-master** at the end
 
 > start simple-announcements
+
+Edit to test Discord webhook.
