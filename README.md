@@ -5,9 +5,10 @@ Simple Announcer is one of my first scripts, and many more to come. It's a basic
 * Minimal and optimized code, very simple and short
 * Easy to change configuration and settings
 * Time interval between each sent message
+* Broadcast announcements with a permission based command.
 
 ## Planned Features
-* Permission based announcements such as an admin announcement
+* ~~Permission based announcements such as an admin announcement~~
 
 Have more ideas? Please do by all means share.
 
@@ -19,5 +20,5 @@ Installing is as simple as downloading and throwing into your resource folder, b
 3. Drag and Drop into your resources folder
 4. Locate the **config.lua** file within the resource folder and edit to your needs
 5. Add the following lines into your **server.cfg** file, don't forget to remove the **-master** at the end
-
+6. Add ace `command.announce` to any group you want to allow `/announce <message>`
 > start simple-announcements
