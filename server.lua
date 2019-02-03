@@ -6,10 +6,11 @@
 local LOCALE = {
     ERROR_PREFIX = '^1[ERROR]^7: ',
     NO_MESSAGES = 'Disabling automatic message announcement due to missing messages.',
-    TOO_SHORT = 'Your message neeeds to be longer than 3 characters.'
+    TOO_SHORT = 'Your message needs to be longer than 3 characters.'
 }
 local delay = config.delay * (1000 * 60)
 local prefix = config.prefix
+local aprefix = config.adminPrefix
 local messages = config.messages
 
 function capitaliseFirstStrLetter(str)
@@ -68,10 +69,10 @@ RegisterCommand('announce', function(source, args, raw)
     end
 
     message = message:gsub("^%l", string.upper)
-    TriggerClientEvent('chat:addMessage', -1, { args = { prefix .. message } })
+    TriggerClientEvent('chat:addMessage', -1, { args = { aprefix .. message } })
 
     if source == 0 then
         --Only print to the console if the console was the originator.
-        print(prefix .. message)
+        print(aprefix .. message)
     end
 end, true)
